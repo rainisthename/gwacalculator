@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleNav = () => setNav(!nav)
   return (
     <div className="px-[10%] mt-2 py-2 border-b-4">
-      <img src={logo} alt="Logo" style={{width:150}}/>
+      <img className='cursor-pointer' src={logo} alt="Logo" style={{width:150}}/>
     </div>
   )
 }
