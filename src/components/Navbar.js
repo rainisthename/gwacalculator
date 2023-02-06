@@ -7,7 +7,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleNav = () => setNav(!nav)
   return (
-    <div className="px-[10%] mt-2 py-2 border-b-2">
+    <div className="px-[10%] mt-2 py-2 border-b-4">
       <img src={logo} alt="Logo" style={{width:150}}/>
     </div>
   )
