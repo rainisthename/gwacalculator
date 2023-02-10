@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gwacalculator/static/css/main.3015c11a.css",
+    "main.js": "/gwacalculator/static/js/main.72034deb.js",
+    "index.html": "/gwacalculator/index.html",
+    "main.3015c11a.css.map": "/gwacalculator/static/css/main.3015c11a.css.map",
+    "main.72034deb.js.map": "/gwacalculator/static/js/main.72034deb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3015c11a.css",
+    "static/js/main.72034deb.js"
+  ]
+}
