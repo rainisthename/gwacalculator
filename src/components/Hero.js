@@ -39,7 +39,8 @@ const Hero = () => {
      
   };
   return (
-    <div className='mx-4 mt-5 h-[100vh]'> 
+    <>
+    <div className='mx-4 mt-5 h-[100vh] mb-5'> 
     <h1 className='text-center mb-10 font-Poppins'>GENERAL WEIGHTED AVERAGE CALCULATOR</h1>
       <p className='text-center text-gray-400 text-xs sm:text-base'>Disclaimer: This system is specific to Northwestern University students only. The calculation of Grade Point Average (GWA) may differ from one university to another, and this information should not be taken as a standard for other institutions</p>
       <div className='mx-3 sm:mx-0 grid justify-items-center'>
@@ -57,7 +58,7 @@ const Hero = () => {
           </label>
      
 
-      <label className='font-bold text-lg font-Poppins'>Grades
+      <label className='font-bold text-lg font-Poppins'>Final Grade
       <input
         type="number"
         name="grade"
@@ -79,9 +80,12 @@ const Hero = () => {
 
      <button class="font-Poppins flex justify-start my-8 bg-transparent text-gray-600 font-semibold hover:text-black py-2 px-4 border  rounded" onClick={addSubject}>Add Subject</button>
       <p className='font-bold font-Poppins text-lg text-center'>General Weighted Average:  {isNaN(calculateGWA()) ? "Input Grades and Units" : calculateGWA()}</p>
-     
+
     </div>
     </div>
+  
+       
+    </>
  
   )
 }
