@@ -39,10 +39,11 @@ const Hero = () => {
      
   };
   return (
-    <>
+  
     <div className='mx-4 mt-5 h-[100vh] mb-5'> 
     <h1 className='text-center mb-10 font-Poppins'>GENERAL WEIGHTED AVERAGE CALCULATOR</h1>
-      <p className='text-center text-gray-400 text-xs sm:text-base'>Disclaimer: This system is specific to Northwestern University students only. The calculation of Grade Point Average (GWA) may differ from one university to another, and this information should not be taken as a standard for other institutions</p>
+      <p className='text-center text-gray-600 text-xs sm:text-base'>Disclaimer: This system is specific to Northwestern University students only. The calculation of Grade Point Average (GWA) may differ from one university to another, and this information should not be taken as a standard for other institutions</p>
+      <p className='text-center text-gray-400 italic text-xs'>Developed By: Mark Lester Caletina</p>
       <div className='mx-3 sm:mx-0 grid justify-items-center'>
       {subjects.map((subject, index) => (
         <div className=' grid-cols-3 gap-2 w-[100%] sm:w-[50%] content-center flex items-center justify-center' key={index}>
@@ -85,7 +86,7 @@ const Hero = () => {
     </div>
   
        
-    </>
+
  
   )
 }
