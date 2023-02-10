@@ -28,7 +28,6 @@ const Hero = () => {
     let totalUnits = 0;
     let gradeWeight = 0;
   
-    console.log('subjects:', subjects);
     subjects.forEach((subject) => {
       gradeWeight += subject.grade * subject.units;
       totalUnits += Number(subject.units);
