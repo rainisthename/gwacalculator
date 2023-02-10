@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
-import Button from 'react-bootstrap/Button';
 const Hero = () => {
   const [subjects, setSubjects] = useState([
     { grade: 0, units: 0 },
@@ -33,7 +32,7 @@ const Hero = () => {
     subjects.forEach((subject) => {
       gradeWeight += subject.grade * subject.units;
       totalUnits += Number(subject.units);
-            console.log(totalUnits)
+            
     });
   
     let gwa =  gradeWeight / totalUnits ;
