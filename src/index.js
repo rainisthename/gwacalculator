@@ -7,7 +7,7 @@ import Home from './pages/Home';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-    <Route path='/' element={<Home />} />
+    <Route path='/gwacalculator' element={<Home />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')
