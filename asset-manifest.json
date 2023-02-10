@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gwacalculator/static/css/main.3015c11a.css",
-    "main.js": "/gwacalculator/static/js/main.e3d947d2.js",
+    "main.js": "/gwacalculator/static/js/main.c0150492.js",
     "index.html": "/gwacalculator/index.html",
     "main.3015c11a.css.map": "/gwacalculator/static/css/main.3015c11a.css.map",
-    "main.e3d947d2.js.map": "/gwacalculator/static/js/main.e3d947d2.js.map"
+    "main.c0150492.js.map": "/gwacalculator/static/js/main.c0150492.js.map"
   },
   "entrypoints": [
     "static/css/main.3015c11a.css",
-    "static/js/main.e3d947d2.js"
+    "static/js/main.c0150492.js"
   ]
 }
