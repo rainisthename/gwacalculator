@@ -1,1 +1,1 @@
-* GWA Calculator for Northwestern University Students
+# GWA Calculator for Northwestern University Students
