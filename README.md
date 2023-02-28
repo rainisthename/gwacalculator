@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-# pasyaran_dashboard
-=======
-'My First Read me'
->>>>>>> master
+* GWA Calculator for Northwestern University Students
